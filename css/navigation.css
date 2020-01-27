@@ -1,0 +1,50 @@
+.site-nav {
+    text-align: right;
+    padding-top: 0.5em;
+
+}
+
+.site-nav ul {
+    display: flex;;
+}
+
+.site-nav ul li {
+display: block;
+margin: 0 0.7em;
+
+}
+
+.site-nav a {
+    display: flex;
+    padding: 0.5em 1em;
+    background: rgb(117, 103, 103);
+    color: #333;
+    text-decoration: none;
+
+
+}
+
+.site-nav a:hover {
+    background: #090;
+    color: #FFF;
+
+
+}
+
+
+.site-nav li a:before {
+    display: block;
+    margin-right: 0.5em;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    
+}
+
+.site-nav li.page-title-about a:before {
+    content: '\f47f';
+    
+} 
+.site-nav li.page-title-contacts a:before {
+        content: '\f2a0';
+ 
+} 
