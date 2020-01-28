@@ -12,7 +12,7 @@ plugins:
   - jekyll-feed
 
 
- exclude:
+exclude:
    - docs/
    - .sass-cache/
    - .jekyll-cache/
